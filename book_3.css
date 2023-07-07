@@ -122,7 +122,7 @@ span{
 }
 .title-best{
     flex-wrap: wrap;
-    background: url(best.jpg);
+    background: url(Images/best.jpg);
     text-align: center;
     background-size: 100% auto;
     background-repeat: no-repeat;
@@ -215,7 +215,7 @@ span{
 }
 .title-recommended{
     flex-wrap: wrap;
-    background: url(best.jpg);
+    background: url(Images/best.jpg);
     text-align: center;
     background-size: 100% auto;
     background-repeat: no-repeat;
@@ -250,7 +250,7 @@ span{
 }
 .title-reviews{
     flex-wrap: wrap;
-    background: url(best.jpg);
+    background: url(Images/best.jpg);
     text-align: center;
     background-size: 100% auto;
     background-repeat: no-repeat;

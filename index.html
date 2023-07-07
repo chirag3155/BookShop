@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Website with Color Scheme Selection</title>
+<style>
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    color: inherit;
+    scroll-behavior: smooth;
+    font-family:'Poppins',sans-serif;
+}
+body {
+    background:linear-gradient(to right, #ffafbd, #ffc3a0);
+}
+
+body h1{
+    color: black;
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 45px;
+    font-size: 42px;
+}
+body p{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 47px;
+    font-size: 24px;
+}
+.color-scheme-options{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 90px;
+    justify-content: center;
+    gap: 90px;
+}
+</style>
+</head>
+<body>
+  <h1 class="header">Welcome to the Website!</h1>
+  <p>Please select your preferred color scheme:</p>
+  <div class="color-scheme-options">
+    <a href="book_2.html?theme=light" class="light" >Light Mode</a>
+    <a href="book_3.html?theme=dark" class="dark">Dark Mode</a>
+  </div>
+</body>
+</html>
